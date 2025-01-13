@@ -788,7 +788,7 @@ if __name__ == "__main__":
 
     if 'data' in args.model_path or 'stonehenge_size2' in args.model_path:
         blend_file = '../blender_scenes/stonehenge_test1121.blend'
-        filename = '../stonehenge/'
+        filename = '../outputs/stonehenge/'
         if 'stonehenge_size2' in args.model_path:
             blend_file = '../blender_scenes/stonehenge_size2.blend'
 
@@ -808,7 +808,7 @@ if __name__ == "__main__":
 
     elif 'sphere' in args.model_path:
         blend_file = '../blender_scenes/sphere.blend'
-        filename = '../sphere/'
+        filename = '../outputs/sphere/'
         xyz_mask = xyz.detach().cpu().numpy()
         scales_mask = scales.detach().cpu().numpy()
         density_mask = density.detach().cpu().numpy()
@@ -1139,7 +1139,7 @@ if __name__ == "__main__":
 
     ##############画图###############################
     if 'sphere' in exp_name:
-        latest_init = '/home/k/icus2024/sphere/nav_map.json'
+        latest_init = './outputs/sphere/nav_map.json'
         with open(latest_init, 'r') as f:
             meta = json.load(f)
 
@@ -1147,7 +1147,7 @@ if __name__ == "__main__":
 
         print('apf_nerf waypoints的数量：', len(points))
         dist = 99
-        sphere_info = '/home/k/icus2024/sphere_info.json'
+        sphere_info = './viz_utils/sphere_info.json'
         with open(sphere_info, 'r') as f:
             meta = json.load(f)
             sphere_list = meta['loc']

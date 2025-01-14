@@ -9,7 +9,7 @@
   </p>
   <p align="center"><strong>ShangHai University</strong></p>
   <h2 align="center">ICUS 2024</h2>
-  <h3 align="center"><a href="xxx">Paper</a> | <a href="xxx">Dataset</a> </h3>
+  <h3 align="center"><a href="xxx">Paper</a> | <a href="https://drive.google.com/drive/folders/1rDmPzq7sxLYoQZSQ6KIQO4VG2LaKMdAP?usp=drive_link">Dataset</a> </h3>
  <div align="center"></div>
 </p>
   <p align="center">
@@ -36,7 +36,7 @@ For the collection of image data, we use 3D modeling software [Blender](https://
 
 
 ## Downloading the stonehenge dataset and sphere dataset
-Our datasets are hosted on a [Google Drive.](xxx.com) The scenes used in the paper are the Stonehenge and the Spherical obstacle scenario.
+Our datasets are hosted on a [Google Drive.](https://drive.google.com/drive/folders/1rDmPzq7sxLYoQZSQ6KIQO4VG2LaKMdAP?usp=drive_link) The scenes used in the paper are the Stonehenge and the Spherical obstacle scenario.
 
 
 Here's our directory structure :
